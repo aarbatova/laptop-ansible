@@ -1,6 +1,0 @@
-- include: docker.yml
-- include: libvirt.yml
-
-- name: Install VirtualBox
-  yum: pkg=VirtualBox state=present
-

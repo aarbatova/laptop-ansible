@@ -3,16 +3,5 @@
   with_items:
     - mirall
     - pidgin
-    - xchat
-    - wireshark
-    - wireshark-gnome
-    - nmap
-    - tcpdump
     - youtube-dl
-    - wget
-    - aria2
 
-- name: Add user to the wireshark group
-  user: name={{ user }} groups="wireshark" append=yes
-
-- include: tor.yml

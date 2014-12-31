@@ -1,4 +1,4 @@
-# non-free codecs :(
+# for gstreamer-plugins-ugly
 dependencies:
   - rpmfusion
 
